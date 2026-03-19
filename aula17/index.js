@@ -1,0 +1,32 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function saudacao(nome) {
+    return `Bom dia ${nome}`;
+}
+
+const variavel = saudacao('Luiz');
+console.log(variavel);
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function soma(x, y) {
+    const resultado = x + y;
+    return resultado;
+}
+
+const resultado = soma(2, 2); // Normalmente variáveis (inclusive contantes) não podem ser redeclaradas, entretanto 'resultado' foi declarado dentro do escopo da function soma(), então posso declarar uma variável de mesmo nome fora do escopo
+console.log(resultado)
+
+// Modos diferentes de criar funções //////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+const raiz = function (n) {
+    return n ** 0.5;
+}
+
+console.log(raiz(9));
+
+// Arrow function //////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+const raizz = n => n ** 0.5;
+
+console.log(raizz(9))

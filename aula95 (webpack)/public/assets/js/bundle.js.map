@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":"AAAAA,MAAM,cAMNC,QAAQC,IAAI","sources":["webpack://aula95-webpack/./src/index.js"],"sourcesContent":["alert(\"Olá mundo!\");\r\n\r\n//3\r\n//4\r\n//5\r\n\r\nconsole.log(\"Heeeeeeey\");"],"names":["alert","console","log"],"sourceRoot":""}
